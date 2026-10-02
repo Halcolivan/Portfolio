@@ -13,23 +13,14 @@
 */
 
 html {
-
   line-height: 1.15;
-
   /* 1 */
-
   -webkit-text-size-adjust: 100%;
-
   /* 2 */
-
   font-size: 10px;
-
   /* для удобной регулировки font-size */
-
   scroll-behavior: smooth;
-
   /* для плавной прокрутки страницы */
-
 }
 
 /* Sections
@@ -43,21 +34,13 @@ html {
 */
 
 body {
-
   margin: 0;
-
   font-size: 1.6rem;
-
   /* для удобной регулировки font-size */
-
   display: flex;
-
   flex-direction: column;
-
   font-synthesis: none;
-
   /* запрещает браузеру синтезировать свойство шрифта, если оно не указано в css, например, если в css не указано начертание bold, то браузер не будет синтезировать его */
-
 }
 
 /**
@@ -67,11 +50,8 @@ body {
 */
 
 main {
-
   flex: 1 1 auto;
-
   /* в сочетании с display: flex; и flex-direction: column; для body такая настройка "прибивает" футер к низу */
-
 }
 
 /**
@@ -83,11 +63,8 @@ main {
 */
 
 h1 {
-
   font-size: 2em;
-
   margin: 0.67em 0;
-
 }
 
 /* Grouping content
@@ -103,19 +80,12 @@ h1 {
 */
 
 hr {
-
   box-sizing: content-box;
-
   /* 1 */
-
   height: 0;
-
   /* 1 */
-
   overflow: visible;
-
   /* 2 */
-
 }
 
 /**
@@ -127,15 +97,10 @@ hr {
 */
 
 pre {
-
   font-family: monospace, monospace;
-
   /* 1 */
-
   font-size: 1em;
-
   /* 2 */
-
 }
 
 /* Text-level semantics
@@ -149,9 +114,7 @@ pre {
 */
 
 a {
-
   background-color: transparent;
-
 }
 
 /**
@@ -163,19 +126,12 @@ a {
 */
 
 abbr[title] {
-
   border-bottom: none;
-
   /* 1 */
-
   text-decoration: underline;
-
   /* 2 */
-
   text-decoration: underline dotted;
-
   /* 2 */
-
 }
 
 /**
@@ -185,11 +141,8 @@ abbr[title] {
 */
 
 b,
-
 strong {
-
   font-weight: bolder;
-
 }
 
 /**
@@ -201,19 +154,12 @@ strong {
 */
 
 code,
-
 kbd,
-
 samp {
-
   font-family: monospace, monospace;
-
   /* 1 */
-
   font-size: 1em;
-
   /* 2 */
-
 }
 
 /**
@@ -223,9 +169,7 @@ samp {
 */
 
 small {
-
   font-size: 80%;
-
 }
 
 /**
@@ -237,29 +181,19 @@ small {
 */
 
 sub,
-
 sup {
-
   font-size: 75%;
-
   line-height: 0;
-
   position: relative;
-
   vertical-align: baseline;
-
 }
 
 sub {
-
   bottom: -0.25em;
-
 }
 
 sup {
-
   top: -0.5em;
-
 }
 
 /* Embedded content
@@ -273,9 +207,7 @@ sup {
 */
 
 img {
-
   border-style: none;
-
 }
 
 /* Forms
@@ -291,31 +223,18 @@ img {
 */
 
 button,
-
 input,
-
 optgroup,
-
 select,
-
 textarea {
-
   font-family: inherit;
-
   /* 1 */
-
   font-size: 100%;
-
   /* 1 */
-
   line-height: 1.15;
-
   /* 1 */
-
   margin: 0;
-
   /* 2 */
-
 }
 
 /**
@@ -327,13 +246,9 @@ textarea {
 */
 
 button,
-
 input {
-
   /* 1 */
-
   overflow: visible;
-
 }
 
 /**
@@ -345,13 +260,9 @@ input {
 */
 
 button,
-
 select {
-
   /* 1 */
-
   text-transform: none;
-
 }
 
 /**
@@ -361,15 +272,10 @@ select {
 */
 
 button,
-
 [type="button"],
-
 [type="reset"],
-
 [type="submit"] {
-
   appearance: button;
-
 }
 
 /**
@@ -379,17 +285,11 @@ button,
 */
 
 button::-moz-focus-inner,
-
 [type="button"]::-moz-focus-inner,
-
 [type="reset"]::-moz-focus-inner,
-
 [type="submit"]::-moz-focus-inner {
-
   border-style: none;
-
   padding: 0;
-
 }
 
 /**
@@ -399,15 +299,10 @@ button::-moz-focus-inner,
 */
 
 button:-moz-focusring,
-
 [type="button"]:-moz-focusring,
-
 [type="reset"]:-moz-focusring,
-
 [type="submit"]:-moz-focusring {
-
   outline: 1px dotted ButtonText;
-
 }
 
 /**
@@ -417,9 +312,7 @@ button:-moz-focusring,
 */
 
 fieldset {
-
   padding: 0.35em 0.75em 0.625em;
-
 }
 
 /**
@@ -435,31 +328,18 @@ fieldset {
 */
 
 legend {
-
   box-sizing: border-box;
-
   /* 1 */
-
   color: inherit;
-
   /* 2 */
-
   display: table;
-
   /* 1 */
-
   max-width: 100%;
-
   /* 1 */
-
   padding: 0;
-
   /* 3 */
-
   white-space: normal;
-
   /* 1 */
-
 }
 
 /**
@@ -469,9 +349,7 @@ legend {
 */
 
 progress {
-
   vertical-align: baseline;
-
 }
 
 /**
@@ -481,9 +359,7 @@ progress {
 */
 
 textarea {
-
   overflow: auto;
-
 }
 
 /**
@@ -495,17 +371,11 @@ textarea {
 */
 
 [type="checkbox"],
-
 [type="radio"] {
-
   box-sizing: border-box;
-
   /* 1 */
-
   padding: 0;
-
   /* 2 */
-
 }
 
 /**
